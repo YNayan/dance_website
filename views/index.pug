@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title AIDA
+    style
+      include ../static/style.css
+    body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/images/mainlogo.png",alt="") 
+                | AIDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/contact") Contact us]
+            li #[a(href="/") Class Info]
+    section#introsection 
+        div  Welcome to All India dance academy 
+        div.small We live. We learn. We dance  
+
+    section#missionSection 
+        h2 Our Facilities
+        div.card 
+             h3 Ladies Special
+             div.card-box
+                img(src="/static/images/womanlogo.png", alt="")
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus, aspernatur suscipit quis maiores amet deserunt rem obcaecati placeat accusantium incidunt pariatur quaerat repellendus opti Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea enim eum ipsam quisquam earum corrupti assumenda! Officia aperiam consectetur, labore illum a aspernatur quaerat! 
+        div.card 
+             h3 Online Classes
+             div.card-box
+                img(src="/static/images/onlinelogo.png", alt="")
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus, aspernatur suscipit quis maiores amet deserunt rem obcaecati placeat accusantium incidunt pariatur quaerat repellendus optio Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quo hic numquam porro autem sequi, quis modi maxime nobis ipsum aspernatur debitis repellendus explicabo.              
+        div.card 
+             h3 Personal guidance
+             div.card-box
+                img(src="/static/images/mentorlogo.png", alt="")
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ducimus, aspernatur suscipit quis maiores amet deserunt rem obcaecati placeat accusantium incidunt pariatur quaerat repellendus optio Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, tempora. Corrupti vel reiciendis unde praesentium quaerat? Eligendi architecto provident libero quia, autem dolorum enim. 
+    section#sponsersSection 
+        h2 Our Sponsors
+        div#sponser
+            img(src="/static/images/logo1.svg", alt="" class = "spimg")
+            img(src="/static/images/logo2.png", alt="" class = "spimg")
+            img(src="/static/images/logo3.png", alt="" class = "spimg")
+            img(src="/static/images/logo4.png", alt="" class = "spimg")
+
+
+    footer#footer 
+        | Copyright 2021 &copy; All India Dance Academy All rights reserved!
+
+    script
+      include ../static/index.js

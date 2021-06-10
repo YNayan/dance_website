@@ -1,0 +1,158 @@
+/*IMPORTING THINGS TO STYLE SHEET*/
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Pattaya&family=Sigmar+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* top: 0%;
+    left: 0%; */
+}
+
+/* THIS IS FOR THE NAVBAR*/
+#navbar{
+    background-color: sandybrown;;
+    padding: 25px 12px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px 33px;
+    margin: 0px 5px;
+    font-size: 1.2rem;
+}
+#navbar li a:hover{
+    border: 2px solid green;
+    border-radius: 12px;
+    color: green;
+
+}
+
+#logo{
+    display: flex;
+    color: #282dc1;
+    font-size: 30px;
+    align-items: center;
+    height: 21px;
+    width: 146px;
+    font-family: 'Pattaya', sans-serif;
+
+}
+#logo img{
+    height: 55px;
+    width: 50px;
+    margin-bottom: 13px;
+
+}
+
+/* THIS IS FR THE INRO AND PICTURE SEXTION */
+#introsection{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url(/static/images/bg.jpg) no-repeat center center/cover;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 35px;
+    padding-bottom: 178px;
+    padding-right: 647px;
+    /* background-color: red; */
+}
+#introsection div.small{
+    font-size: 1.8rem;
+ 
+}
+
+
+/* This is for the mission */
+#missionSection{
+    /* background-color: #ff9b0496; */
+    height: 510px;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 12px 12px;
+    color: black;
+    font-family: 'Sigmar One', cursive;
+}
+
+#missionSection .card{
+    background-color: sandybrown;
+    box-shadow: 10px 13px green;
+    width: 30%;
+    margin: 18px;
+    border-radius: 18px;
+    height: 365px;
+    display: inline-block;
+}
+
+.card h3{
+    text-decoration: underline;
+    padding-bottom: 16px;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.card p{
+    text-align: center;
+    padding: 12px 12px;
+}
+
+.card-box img{
+    height: 150px;
+    width:  150px;
+
+}
+
+.card{
+    text-align: center;
+}
+
+/* THIS IS FOR THE SPONSER */
+#sponsersSection{
+    height: 230px;
+    background-color: #f7c69c;
+}
+
+#sponsersSection h2{
+    text-align: center;
+    padding: 12px 12px;
+    color: white;
+    font-family: 'Sigmar One', cursive;
+}
+
+#sponser{
+    display: flex;
+    justify-content: center;
+}
+
+.spimg{
+    
+    height: 100px;
+    margin: 24px 44px;
+    width: 100px;
+}
+/* THIS IS THE FOOTER SECTION */
+#footer{
+    text-align: center;
+    height: 21px;
+    color: white;
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}

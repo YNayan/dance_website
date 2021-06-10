@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&family=Pattaya&family=Sigmar+One&display=swap');
+/* Contact us style */
+h3{
+    text-align: center;
+    padding: 12px 12px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 35px;
+    color: #f7c69c;
+    text-shadow: 1px 4px 2px #eea361;
+}
+
+.myForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.myInput{
+    width: 197%;
+    padding: 3px 7px;
+    margin: 8px 0px;
+    font-size: 16px;
+    border: 2px solid #f7c69c;
+    border-radius: 26px;
+
+}
+.container{
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#footer{
+    height: 21px;
+}
+.btn{
+    margin: 26px 11px;
+    padding: 9px 9px;
+    font-size: 12px;
+    border: 2px solid #f7c69c;
+    background-color: white;
+    border-radius: 13px;
+    width: 106px;
+    color: black;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #f7c69c;
+    color: white;
+    border: 2px solid black;
+}
